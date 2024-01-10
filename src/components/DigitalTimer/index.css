@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+  padding: 20px;
+}
+
+.bottom {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timerCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 40vw;
+  height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  border-radius: 80px;
+  height: 130px;
+  width: 130px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.limit {
+  background-color: aquamarine;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.time {
+  color: #00d9f5;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.icon {
+  height: 30px;
+  width: 40px;
+  margin-right: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 800;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 30vw;
+  padding: 20px;
+  padding-top: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+}
+.limit-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
